@@ -1,4 +1,4 @@
-import 'package:flutter_enetcom_workshop/apod.dart';
+import 'package:flutter_enetcom_workshop/apod_model.dart';
 
 /// sample data for starter app. It will eventually be replaced with data
 /// from the APOD API
