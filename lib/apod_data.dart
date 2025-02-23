@@ -2,32 +2,66 @@ import 'package:flutter_enetcom_workshop/apod_model.dart';
 
 /// sample data for starter app. It will eventually be replaced with data
 /// from the APOD API
-List<Apod> samples = [
+final List<Apod> apods = [
   Apod(
-    date: DateTime(2021, 10, 9),
+    date: DateTime.parse("2025-01-01"),
     mediaType: MediaType.image,
-    copyright: 'Josselin Desmars',
-    title: '50 Light-years to 51 Pegasi',
+    copyright:
+        "Telescope Live, Heaven's Mirror Observatory; Processing: Chris Cantrell",
+    title: "Alpha Centauri: The Closest Star System",
     explanation:
-        'It\'s only 50 light-years to 51 Pegasi. That star\'s position is indicated in this snapshot from August, taken on a hazy night with mostly brighter stars visible above the dome at Observatoire de Haute-Provence in France. Twenty-six years ago, in October of 1995, astronomers Michel Mayor and Didier Queloz announced a profound discovery made at the observatory. Using a precise spectrograph they had detected a planet orbiting 51 Peg, the first known exoplanet orbiting a sun-like star. Mayor and Queloz had used the spectrograph to measure changes in the star\'s radial velocity, a regular wobble caused by the gravitational tug of the orbiting planet. Designated 51 Pegasi b, the planet was determined to have a mass at least half of Jupiter\'s mass and an orbital period of 4.2 days, making it much closer to its parent star than Mercury is to the Sun. Their discovery was quickly confirmed and Mayor and Queloz were ultimately awarded the Nobel Prize in physics in 2019. Now recognized as the prototype for the class of exoplanets fondly known as hot Jupiters, 51 Pegasi b was formally named Dimidium, latin for half, in 2015. Since its discovery, over 4,000 exoplanets have been found.',
-    url: 'assets/2021-10-09-peg51_desmars_ex1024.jpeg',
+        "The closest star system to the Sun is the Alpha Centauri system. Of the three stars in the system, the dimmest -- called Proxima Centauri -- is actually the nearest star...",
+    url: "https://apod.nasa.gov/apod/image/2501/AlphaCen_Cantrell_960.jpg",
+    hdurl: "https://apod.nasa.gov/apod/image/2501/AlphaCen_Cantrell_3429.jpg",
   ),
   Apod(
-    date: DateTime(2021, 10, 8),
+    date: DateTime.parse("2025-01-02"),
     mediaType: MediaType.image,
-    copyright: 'Jack Groves',
-    title: 'The Double Cluster in Perseus',
+    copyright: "Betul Turksoy",
+    title: "Solar Analemma 2024",
     explanation:
-        'This pretty starfield spans about three full moons (1.5 degrees) across the heroic northern constellation of Perseus. It holds the famous pair of open star clusters, h and Chi Persei. Also cataloged as NGC 869 (top) and NGC 884, both clusters are about 7,000 light-years away and contain stars much younger and hotter than the Sun.  Separated by only a few hundred light-years, the clusters are both 13 million years young based on the ages of their individual stars, evidence that they were likely a product of the same star-forming region. Always a rewarding sight in binoculars, the Double Cluster is even visible to the unaided eye from dark locations. But a shroud of guitar strings was used to produce diffraction spikes on the colorful stars imaged in this vibrant telescopic view.   Global Moon Party:  Including APOD\'s Best Moon Images: Saturday, October 9',
-    url: 'assets/2021-10-08-doubleclustergroves1024.jpeg',
+        "Recorded during 2024, this year-spanning series of images reveals a pattern in the seasonal drift of the Sun's daily motion through planet Earth's sky...",
+    url:
+        "https://apod.nasa.gov/apod/image/2501/solaranalemma2024-4-5BetulT1024.jpeg",
+    hdurl:
+        "https://apod.nasa.gov/apod/image/2501/solaranalemma2024-4-5BetulT.jpeg",
   ),
   Apod(
-    date: DateTime(2021, 10, 7),
+    date: DateTime.parse("2025-01-03"),
     mediaType: MediaType.image,
-    copyright: 'Roberto Sartori',
-    title: 'NGC 6559: East of the Lagoon',
+    copyright: "Josh Dury",
+    title: "Eclipse Pair",
     explanation:
-        'Slide your telescope just east of the Lagoon Nebula to find this alluring field of view in the rich starfields of the constellation Sagittarius toward the central Milky Way. Of course the Lagoon nebula is also known as M8, the eighth object listed in Charles Messier\'s famous catalog of bright nebulae and star clusters. Close on the sky but slightly fainter than M8, this complex of nebulae was left out of Messier\'s list though. It contains obscuring dust, striking red emission and blue reflection nebulae of star-forming region NGC 6559 at right. Like M8, NGC 6559 is located about 5,000 light-years away along the edge of a large molecular cloud. At that distance, this telescopic frame nearly 3 full moons wide would span about 130 light-years.   Global Moon Party:  NASA\'s Night Sky Network: Saturday, October 9',
-    url: 'assets/2021-10-07-NGC6559Sartori1024.jpeg',
+        "Eclipses tend to come in pairs. Twice a year, during an eclipse season that lasts about 34 days, Sun, Moon, and Earth can nearly align...",
+    url: "https://apod.nasa.gov/apod/image/2501/APODEclipsePair1024.jpg",
+    hdurl: "https://apod.nasa.gov/apod/image/2501/APODEclipsePair2048.jpg",
+  ),
+  Apod(
+    date: DateTime.parse("2025-01-04"),
+    mediaType: MediaType.image,
+    copyright: "Barden Ridge Observatory",
+    title: "Welcome to Perihelion",
+    explanation:
+        "Earth's orbit around the Sun is not a circle, it's an ellipse. The point along its elliptical orbit where our fair planet is closest to the Sun is called perihelion...",
+    url: "https://apod.nasa.gov/apod/image/2501/20250104PeriSolHaNeg1024.jpg",
+    hdurl: "https://apod.nasa.gov/apod/image/2501/20250104PeriSolHaNeg.jpg",
+  ),
+  Apod(
+    date: DateTime.parse("2025-01-05"),
+    mediaType: MediaType.video,
+    title: "Rocket Launch as Seen from the International Space Station",
+    explanation:
+        "Have you ever seen a rocket launch -- from space? A close inspection of the featured time-lapse video will reveal a rocket rising to Earth orbit...",
+    url: "https://www.youtube.com/embed/B1R3dTdcpSU?rel=0",
+    thumb: null, // No thumb URL provided in data
+  ),
+  Apod(
+    date: DateTime.parse("2025-01-06"),
+    mediaType: MediaType.image,
+    title: "Galaxies in Collision: NGC 2207 and IC 2163",
+    explanation:
+        "Billions of years from now, only one of these two galaxies will remain. Until then, spiral galaxies NGC 2207 and IC 2163 will slowly pull each other apart...",
+    url: "https://apod.nasa.gov/apod/image/2501/CollidingGalaxies.jpg",
+    hdurl: "https://apod.nasa.gov/apod/image/2501/CollidingGalaxiesHD.jpg",
   ),
 ];
