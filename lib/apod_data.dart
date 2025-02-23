@@ -46,22 +46,4 @@ final List<Apod> apods = [
     url: "https://apod.nasa.gov/apod/image/2501/20250104PeriSolHaNeg1024.jpg",
     hdurl: "https://apod.nasa.gov/apod/image/2501/20250104PeriSolHaNeg.jpg",
   ),
-  Apod(
-    date: DateTime.parse("2025-01-05"),
-    mediaType: MediaType.video,
-    title: "Rocket Launch as Seen from the International Space Station",
-    explanation:
-        "Have you ever seen a rocket launch -- from space? A close inspection of the featured time-lapse video will reveal a rocket rising to Earth orbit...",
-    url: "https://www.youtube.com/embed/B1R3dTdcpSU?rel=0",
-    thumb: null, // No thumb URL provided in data
-  ),
-  Apod(
-    date: DateTime.parse("2025-01-06"),
-    mediaType: MediaType.image,
-    title: "Galaxies in Collision: NGC 2207 and IC 2163",
-    explanation:
-        "Billions of years from now, only one of these two galaxies will remain. Until then, spiral galaxies NGC 2207 and IC 2163 will slowly pull each other apart...",
-    url: "https://apod.nasa.gov/apod/image/2501/CollidingGalaxies.jpg",
-    hdurl: "https://apod.nasa.gov/apod/image/2501/CollidingGalaxiesHD.jpg",
-  ),
 ];
