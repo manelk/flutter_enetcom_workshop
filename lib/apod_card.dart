@@ -3,7 +3,7 @@ import 'package:flutter_enetcom_workshop/apod_model.dart';
 import 'package:intl/intl.dart';
 
 class ApodCard extends StatelessWidget {
-  // declare a class field 
+  // Declare a class field
   final Apod apod;
 
   const ApodCard({super.key, required this.apod});
