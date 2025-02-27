@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_enetcom_workshop/apod_page.dart';
+import 'package:flutter_enetcom_workshop/pages/apod_page.dart';
 
 void main() {
   runApp(const MyApp());

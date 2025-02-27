@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_enetcom_workshop/apod_card.dart';
-import 'package:flutter_enetcom_workshop/apod_data.dart';
+import 'package:flutter_enetcom_workshop/widgets/apod_card.dart';
+import 'package:flutter_enetcom_workshop/data/apod_data.dart';
 
 class ApodPage extends StatelessWidget {
   const ApodPage({super.key});

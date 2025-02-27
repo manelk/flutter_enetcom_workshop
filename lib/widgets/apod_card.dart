@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_enetcom_workshop/apod_model.dart';
+import 'package:flutter_enetcom_workshop/models/apod_model.dart';
 import 'package:intl/intl.dart';
 
 class ApodCard extends StatelessWidget {
